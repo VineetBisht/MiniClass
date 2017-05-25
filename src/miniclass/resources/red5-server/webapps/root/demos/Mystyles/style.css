@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Apr, 2017, 8:38:14 AM
+    Author     : Valyrx
+*/
+
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+	
+  .navbar-brand {
+    float: left;
+    height: 100px;
+    padding: 30px 30px 30px;
+    font-size: 70px;
+    line-height: 20px;
+}  
+  .navbar {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      
+      letter-spacing: 5px;
+  }
+  .glyphicon-education {
+      float: left;
+    height: 100px;
+    padding: 3px 30px 30px;
+    font-size: 70px;
+    line-height: 20px;
+  }
+  #content_list {
+      
+      margin: 10px 5px 5px 5px;
+  }
+  img {
+      float: left;
+      margin: 5px 10px 10px 5px;
+  }
+  span {
+      font-size: 40px;
+  }
+  

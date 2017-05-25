@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.discuss.DiscussMController">
+   <children>
+      <Label alignment="CENTER" layoutX="204.0" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: YELLOW;" text="Discussions" textFill="#8f8536">
+         <font>
+            <Font name="AR JULIAN" size="36.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Button fx:id="newly" layoutX="156.0" layoutY="90.0" mnemonicParsing="false" onAction="#newlyEventHandler" prefHeight="57.0" prefWidth="262.0" text="New" />
+      <Button fx:id="search" defaultButton="true" layoutX="156.0" layoutY="182.0" mnemonicParsing="false" onAction="#searchEventHandler" prefHeight="57.0" prefWidth="262.0" text="Search" />
+      <Button fx:id="ongoing" layoutX="156.0" layoutY="272.0" mnemonicParsing="false" onAction="#ongoingEventHandler" prefHeight="57.0" prefWidth="262.0" text="Ongoing" />
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="15.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

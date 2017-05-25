@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="539.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.qui.QuizEController">
+   <children>
+      <FlowPane layoutX="110.0" layoutY="36.0" prefHeight="166.0" prefWidth="375.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: Orange;" text="Quiz" textFill="#8f8536">
+               <font>
+                  <Font name="AR JULIAN" size="49.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow>
+                           <input>
+                              <InnerShadow>
+                                 <input>
+                                    <Glow level="0.58" />
+                                 </input>
+                              </InnerShadow>
+                           </input>
+                        </Shadow>
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+            <ImageView fitHeight="145.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/Quiz-Games.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <Label alignment="CENTER" layoutX="105.0" layoutY="252.0" prefHeight="108.0" prefWidth="207.0" style="-fx-text-fill: yellow;" text="Score :" textFill="#8f8536">
+         <font>
+            <Font name="AR JULIAN" size="39.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label fx:id="own" alignment="CENTER" layoutX="312.0" layoutY="268.0" prefHeight="77.0" prefWidth="167.0" style="-fx-text-fill: lightgreen;" text="no" textFill="#8f8536">
+         <font>
+            <Font name="AR JULIAN" size="39.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="120.0" layoutY="348.0" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: yellow;" text="Opponent :" textFill="#8f8536" visible="false">
+         <font>
+            <Font name="AR JULIAN" size="39.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label fx:id="opscore" alignment="CENTER" layoutX="340.0" layoutY="348.0" prefHeight="61.0" prefWidth="145.0" style="-fx-text-fill: lightgreen;" text="no" textFill="#8f8536" visible="false">
+         <font>
+            <Font name="AR JULIAN" size="39.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label fx:id="result" alignment="CENTER" layoutX="192.0" layoutY="340.0" prefHeight="77.0" prefWidth="217.0" style="-fx-text-fill: white;" text="L or W" textFill="#8f8536" visible="false">
+         <font>
+            <Font name="AR JULIAN" size="43.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Button fx:id="again" layoutX="238.0" layoutY="441.0" mnemonicParsing="false" onAction="#againEventHandler" prefHeight="53.0" prefWidth="126.0" text="Again">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

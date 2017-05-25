@@ -1,0 +1,309 @@
+2017-04-15 10:44:14,038 [0.0.0.0-startStop-1] INFO  ROOT - Starting up context: oflaDemo
+2017-04-15 10:44:14,927 [Loader:/oflaDemo] DEBUG org.red5.demos.oflaDemo.Application - start: Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=false]
+2017-04-15 10:44:14,927 [Loader:/oflaDemo] DEBUG org.red5.demos.oflaDemo.Application - appStart: Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=false]
+2017-04-15 10:44:14,929 [Loader:/oflaDemo] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appStart
+2017-04-15 10:44:14,935 [Loader:/oflaDemo] INFO  org.red5.demos.oflaDemo.DemoService - oflaDemo DemoService created
+2017-04-15 10:57:49,729 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3418 out: 3073) session: 0MT7K7QF9LD4I state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:57:49,730 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:0
+2017-04-15 10:57:49,730 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 10:57:49,734 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = http://localhost:5080/demos/simpleBroadcaster.swf
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = http://localhost:5080/demos/simpleBroadcaster.html
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 10:57:49,735 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3418 out: 3073) session: 0MT7K7QF9LD4I state: connected
+2017-04-15 10:57:49,736 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 0 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:57:50,104 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:publish c-ip:0:0:0:0:0:0:0:1 x-sname:2a33c350-33d1-45b6-870b-be4686ace01d x-name:red5StreamDemo
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: IRK9R7G9AAOQN state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:1
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 10:58:45,080 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: IRK9R7G9AAOQN state: connected
+2017-04-15 10:58:45,081 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 1 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:58:45,220 [Red5_Scheduler_Worker-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:c1565cfc-4cb0-4884-b673-bea7368c4a7e
+2017-04-15 10:58:45,231 [Red5_Scheduler_Worker-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:c1565cfc-4cb0-4884-b673-bea7368c4a7e x-name:red5StreamDemo
+2017-04-15 10:58:52,035 [NioProcessor-3] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3439 out: 183441) session: IRK9R7G9AAOQN state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:58:52,035 [NioProcessor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:1
+2017-04-15 10:58:52,035 [NioProcessor-3] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 10:58:52,036 [NioProcessor-3] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3439 out: 183441) session: IRK9R7G9AAOQN state: disconnecting
+2017-04-15 10:58:52,036 [NioProcessor-3] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 1 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:58:52,036 [NioProcessor-3] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 1 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 10:58:52,047 [Red5_Scheduler_Worker-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:0:0:0:0:0:0:0:1 cs-bytes:3439 sc-bytes:183441 x-sname:c1565cfc-4cb0-4884-b673-bea7368c4a7e
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: YG0VHAGL4XMKD state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:2
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 11:00:09,210 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 11:00:09,211 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 11:00:09,211 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 11:00:09,211 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 11:00:09,211 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 11:00:09,211 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: YG0VHAGL4XMKD state: connected
+2017-04-15 11:00:09,211 [RTMPConnectionExecutor-1] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 2 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:00:09,282 [Red5_Scheduler_Worker-14] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:a93bdee6-55e7-44a7-8634-85eb6a7f7203
+2017-04-15 11:00:09,289 [Red5_Scheduler_Worker-15] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:a93bdee6-55e7-44a7-8634-85eb6a7f7203 x-name:red5StreamDemo
+2017-04-15 11:00:13,419 [NioProcessor-4] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3432 out: 73694) session: YG0VHAGL4XMKD state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:00:13,419 [NioProcessor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:2
+2017-04-15 11:00:13,419 [NioProcessor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 11:00:13,419 [NioProcessor-4] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3432 out: 73694) session: YG0VHAGL4XMKD state: disconnecting
+2017-04-15 11:00:13,420 [NioProcessor-4] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 2 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:00:13,420 [NioProcessor-4] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 2 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:00:13,430 [Red5_Scheduler_Worker-16] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:0:0:0:0:0:0:0:1 cs-bytes:3432 sc-bytes:73694 x-sname:a93bdee6-55e7-44a7-8634-85eb6a7f7203
+2017-04-15 11:00:34,455 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: HRD6AFYO72QGA state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:3
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: HRD6AFYO72QGA state: connected
+2017-04-15 11:00:34,456 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 3 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:01:02,770 [NioProcessor-5] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3549 out: 3644) session: HRD6AFYO72QGA state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:01:02,771 [NioProcessor-5] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:3
+2017-04-15 11:01:02,771 [NioProcessor-5] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 11:01:02,771 [NioProcessor-5] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3549 out: 3644) session: HRD6AFYO72QGA state: disconnecting
+2017-04-15 11:01:02,771 [NioProcessor-5] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 3 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:01:02,771 [NioProcessor-5] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 3 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:01:33,755 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3416 out: 3073) session: XOUIQPGC08B21 state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:4
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = http://localhost:5080/demos/simpleSubscriber.swf
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = http://localhost:5080/demos/simpleSubscriber.html
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3416 out: 3073) session: XOUIQPGC08B21 state: connected
+2017-04-15 11:01:33,756 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 4 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:01:33,843 [Red5_Scheduler_Worker-29] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:f16482c1-fdff-47bf-8f9a-c3ed94b6fb8f
+2017-04-15 11:01:33,843 [Red5_Scheduler_Worker-30] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:f16482c1-fdff-47bf-8f9a-c3ed94b6fb8f x-name:red5StreamDemo
+2017-04-15 11:02:01,412 [NioProcessor-6] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3622 out: 709199) session: XOUIQPGC08B21 state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:02:01,413 [NioProcessor-6] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:4
+2017-04-15 11:02:01,413 [NioProcessor-6] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 11:02:01,413 [NioProcessor-6] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3622 out: 709199) session: XOUIQPGC08B21 state: disconnecting
+2017-04-15 11:02:01,413 [NioProcessor-6] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 4 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:02:01,414 [NioProcessor-6] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 4 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:02:01,425 [Red5_Scheduler_Worker-14] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:0:0:0:0:0:0:0:1 cs-bytes:3622 sc-bytes:709199 x-sname:f16482c1-fdff-47bf-8f9a-c3ed94b6fb8f
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3416 out: 3073) session: WSNY7FIQONJGR state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:5
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = http://localhost:5080/demos/simpleSubscriber.swf
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 11:02:07,435 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = http://localhost:5080/demos/simpleSubscriber.html
+2017-04-15 11:02:07,436 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 11:02:07,436 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3416 out: 3073) session: WSNY7FIQONJGR state: connected
+2017-04-15 11:02:07,436 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 5 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:02:07,535 [Red5_Scheduler_Worker-22] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:16535d00-44e0-4a82-ae7e-9af174b9711d
+2017-04-15 11:02:07,541 [Red5_Scheduler_Worker-23] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:16535d00-44e0-4a82-ae7e-9af174b9711d x-name:red5StreamDemo
+2017-04-15 11:03:12,328 [NioProcessor-7] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3748 out: 1843593) session: WSNY7FIQONJGR state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:03:12,329 [NioProcessor-7] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:5
+2017-04-15 11:03:12,330 [NioProcessor-7] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 11:03:12,330 [NioProcessor-7] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3748 out: 1843593) session: WSNY7FIQONJGR state: disconnecting
+2017-04-15 11:03:12,331 [NioProcessor-7] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 5 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:03:12,331 [NioProcessor-7] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 5 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:03:12,342 [Red5_Scheduler_Worker-22] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:0:0:0:0:0:0:0:1 cs-bytes:3748 sc-bytes:1843593 x-sname:16535d00-44e0-4a82-ae7e-9af174b9711d
+2017-04-15 11:03:17,273 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:unpublish c-ip:0:0:0:0:0:0:0:1 cs-bytes:8583434 sc-bytes:3592 x-sname:2a33c350-33d1-45b6-870b-be4686ace01d x-file-length:327 x-name:red5StreamDemo
+2017-04-15 11:03:17,273 [NioProcessor-2] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 8583434 out: 3592) session: 0MT7K7QF9LD4I state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:03:17,274 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:0
+2017-04-15 11:03:17,274 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 11:03:17,274 [NioProcessor-2] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 8583434 out: 3592) session: 0MT7K7QF9LD4I state: disconnecting
+2017-04-15 11:03:17,274 [NioProcessor-2] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 0 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:03:17,274 [NioProcessor-2] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 0 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:44:50,244 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: RBAWMSLAHSGLL state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:44:50,244 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:6
+2017-04-15 11:44:50,244 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 11:44:50,245 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: RBAWMSLAHSGLL state: connected
+2017-04-15 11:44:50,246 [RTMPConnectionExecutor-2] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 6 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:44:50,331 [Red5_Scheduler_Worker-28] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:ea143dd9-4526-42ef-9be0-c93d2c5bfb42
+2017-04-15 11:44:50,365 [Red5_Scheduler_Worker-29] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:ea143dd9-4526-42ef-9be0-c93d2c5bfb42 x-name:red5StreamDemo
+2017-04-15 11:45:00,158 [NioProcessor-8] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3457 out: 3799) session: RBAWMSLAHSGLL state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:45:00,158 [NioProcessor-8] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:6
+2017-04-15 11:45:00,159 [NioProcessor-8] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 11:45:00,159 [NioProcessor-8] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3457 out: 3799) session: RBAWMSLAHSGLL state: disconnecting
+2017-04-15 11:45:00,160 [NioProcessor-8] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 6 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:45:00,161 [NioProcessor-8] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 6 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 11:45:00,171 [Red5_Scheduler_Worker-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:0:0:0:0:0:0:0:1 cs-bytes:3457 sc-bytes:3799 x-sname:ea143dd9-4526-42ef-9be0-c93d2c5bfb42
+2017-04-15 12:24:01,617 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: TNK8ZC8CIORJH state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:24:01,628 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:7
+2017-04-15 12:24:01,628 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 12:24:01,628 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: TNK8ZC8CIORJH state: connected
+2017-04-15 12:24:01,629 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 7 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:24:01,766 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:publish c-ip:0:0:0:0:0:0:0:1 x-sname:b855dd50-38cd-4b3e-8b35-b5102c53d513 x-name:red5StreamDemo
+2017-04-15 12:29:36,177 [NioProcessor-9] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:unpublish c-ip:0:0:0:0:0:0:0:1 cs-bytes:7091465 sc-bytes:3603 x-sname:b855dd50-38cd-4b3e-8b35-b5102c53d513 x-file-length:334 x-name:red5StreamDemo
+2017-04-15 12:29:36,177 [NioProcessor-9] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 7091465 out: 3603) session: TNK8ZC8CIORJH state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:29:36,177 [NioProcessor-9] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:7
+2017-04-15 12:29:36,177 [NioProcessor-9] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 12:29:36,178 [NioProcessor-9] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 7091465 out: 3603) session: TNK8ZC8CIORJH state: disconnecting
+2017-04-15 12:29:36,178 [NioProcessor-9] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 7 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:29:36,178 [NioProcessor-9] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 7 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:36:04,069 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: LBYJD85UWIU8F state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:36:04,070 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:8
+2017-04-15 12:36:04,071 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 12:36:04,071 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 12:36:04,071 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 12:36:04,071 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 12:36:04,072 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 12:36:04,072 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 12:36:04,072 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 12:36:04,072 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: LBYJD85UWIU8F state: connected
+2017-04-15 12:36:04,073 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 8 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:36:04,165 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:publish c-ip:0:0:0:0:0:0:0:1 x-sname:05f5df0a-0204-43d4-97e3-b1c1d2517be7 x-name:red5StreamDemo
+2017-04-15 12:37:24,681 [NioProcessor-10] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:unpublish c-ip:0:0:0:0:0:0:0:1 cs-bytes:1403983 sc-bytes:3564 x-sname:05f5df0a-0204-43d4-97e3-b1c1d2517be7 x-file-length:80 x-name:red5StreamDemo
+2017-04-15 12:37:24,681 [NioProcessor-10] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 1403983 out: 3564) session: LBYJD85UWIU8F state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:37:24,682 [NioProcessor-10] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:8
+2017-04-15 12:37:24,682 [NioProcessor-10] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 12:37:24,682 [NioProcessor-10] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 1403983 out: 3564) session: LBYJD85UWIU8F state: disconnecting
+2017-04-15 12:37:24,682 [NioProcessor-10] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 8 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:37:24,682 [NioProcessor-10] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 8 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:37:50,568 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: EL21IPTU25OZL state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:37:50,568 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:9
+2017-04-15 12:37:50,568 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 12:37:50,568 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 12:37:50,568 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 12:37:50,568 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: EL21IPTU25OZL state: connected
+2017-04-15 12:37:50,569 [RTMPConnectionExecutor-3] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 9 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:37:50,696 [RTMPConnectionExecutor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:publish c-ip:0:0:0:0:0:0:0:1 x-sname:f2da5e48-7002-4ad1-a38f-e2e90c8bb4b8 x-name:red5StreamDemo
+2017-04-15 12:38:14,197 [NioProcessor-11] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:unpublish c-ip:0:0:0:0:0:0:0:1 cs-bytes:295577 sc-bytes:3559 x-sname:f2da5e48-7002-4ad1-a38f-e2e90c8bb4b8 x-file-length:23 x-name:red5StreamDemo
+2017-04-15 12:38:14,197 [NioProcessor-11] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 295577 out: 3559) session: EL21IPTU25OZL state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:38:14,198 [NioProcessor-11] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:9
+2017-04-15 12:38:14,198 [NioProcessor-11] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 12:38:14,198 [NioProcessor-11] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 295577 out: 3559) session: EL21IPTU25OZL state: disconnecting
+2017-04-15 12:38:14,198 [NioProcessor-11] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 9 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:38:14,198 [NioProcessor-11] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 9 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:47:26,697 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: VFQLJGJOAQA8B state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:10
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 12:47:26,698 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: VFQLJGJOAQA8B state: connected
+2017-04-15 12:47:26,699 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 10 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:47:26,765 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:publish c-ip:0:0:0:0:0:0:0:1 x-sname:1e2274bb-832c-4e03-bf4c-e2eda1f93d33 x-name:red5StreamDemo
+2017-04-15 12:47:42,508 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - connect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: OIGMG6R8K0NDE state: connected > Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:0:0:0:0:0:0:0:1 c-client-id:11
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - App connect called for scope: oflaDemo
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: app = oflaDemo
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: flashVer = WIN 25,0,0,148
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: swfUrl = null
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: tcUrl = rtmp://localhost/oflaDemo
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: fpad = false
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: capabilities = 239.0
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: audioCodecs = 3575.0
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoCodecs = 252.0
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: videoFunction = 1.0
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: pageUrl = null
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - Connection property: path = oflaDemo
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appConnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3314 out: 3073) session: OIGMG6R8K0NDE state: connected
+2017-04-15 12:47:42,509 [RTMPConnectionExecutor-4] DEBUG org.red5.demos.oflaDemo.Application - appJoin: Client: 11 >> Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:47:42,605 [Red5_Scheduler_Worker-5] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:312f095f-6477-4495-b11a-3b0c0e3e4622
+2017-04-15 12:47:42,609 [Red5_Scheduler_Worker-6] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:play c-ip:0:0:0:0:0:0:0:1 x-sname:312f095f-6477-4495-b11a-3b0c0e3e4622 x-name:red5StreamDemo
+2017-04-15 12:50:19,379 [NioProcessor-13] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3964 out: 4492272) session: OIGMG6R8K0NDE state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:50:19,380 [NioProcessor-13] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:11
+2017-04-15 12:50:19,380 [NioProcessor-13] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 12:50:19,380 [NioProcessor-13] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 3964 out: 4492272) session: OIGMG6R8K0NDE state: disconnecting
+2017-04-15 12:50:19,380 [NioProcessor-13] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 11 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:50:19,382 [NioProcessor-13] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 11 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:50:19,391 [Red5_Scheduler_Worker-23] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:stop c-ip:0:0:0:0:0:0:0:1 cs-bytes:3964 sc-bytes:4492272 x-sname:312f095f-6477-4495-b11a-3b0c0e3e4622
+2017-04-15 12:50:23,052 [NioProcessor-12] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:unpublish c-ip:0:0:0:0:0:0:0:1 cs-bytes:4969140 sc-bytes:3572 x-sname:1e2274bb-832c-4e03-bf4c-e2eda1f93d33 x-file-length:176 x-name:red5StreamDemo
+2017-04-15 12:50:23,052 [NioProcessor-12] DEBUG org.red5.demos.oflaDemo.Application - disconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 4969140 out: 3572) session: VFQLJGJOAQA8B state: disconnecting < Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:50:23,052 [NioProcessor-12] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:0:0:0:0:0:0:0:1 c-client-id:10
+2017-04-15 12:50:23,052 [NioProcessor-12] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
+2017-04-15 12:50:23,052 [NioProcessor-12] DEBUG org.red5.demos.oflaDemo.Application - appDisconnect: RTMPMinaConnection from 0:0:0:0:0:0:0:1 (in: 4969140 out: 3572) session: VFQLJGJOAQA8B state: disconnecting
+2017-04-15 12:50:23,053 [NioProcessor-12] DEBUG org.red5.demos.oflaDemo.Application - leave: Client: 10 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]
+2017-04-15 12:50:23,053 [NioProcessor-12] DEBUG org.red5.demos.oflaDemo.Application - appLeave: Client: 10 << Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1492233254923, depth=1, enabled=true, running=true]

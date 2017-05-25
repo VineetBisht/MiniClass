@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="459.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.mate.MateController">
+   <children>
+      <ImageView fitHeight="138.0" fitWidth="137.0" layoutX="372.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/materi.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="111.0" layoutY="38.0" prefHeight="114.0" prefWidth="340.0" style="-fx-text-fill: Black;" text="Class Material">
+         <font>
+            <Font name="Andalus" size="43.0" />
+         </font>
+         <effect>
+            <Shadow blurType="ONE_PASS_BOX" color="#572828" height="5.93" radius="0.9824999999999999" width="0.0">
+               <input>
+                  <MotionBlur radius="1.0" />
+               </input>
+            </Shadow>
+         </effect>
+      </Label>
+      <Button fx:id="assign" disable="true" layoutX="283.0" layoutY="230.0" mnemonicParsing="false" onAction="#assignEventHandler" prefHeight="68.0" prefWidth="292.0" text="Submit Assignments" />
+      <Button fx:id="notes" layoutX="289.0" layoutY="322.0" mnemonicParsing="false" onAction="#notesEventHandler" prefHeight="68.0" prefWidth="280.0" text="Download Notes" />
+      <ChoiceBox fx:id="subject" layoutX="33.0" layoutY="152.0" prefHeight="45.0" prefWidth="230.0" />
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="18.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

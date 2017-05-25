@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="611.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.sche.ScheController">
+   <children>
+      <ImageView fitHeight="87.0" fitWidth="133.0" layoutX="234.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/scheduler.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="scheduler" layoutX="14.0" layoutY="96.0" prefHeight="328.0" prefWidth="579.0">
+        <columns>
+          <TableColumn fx:id="monday" minWidth="11.0" prefWidth="89.0" text="Monday" />
+          <TableColumn fx:id="tuesday" minWidth="11.0" prefWidth="99.0" text="Tuesday" />
+            <TableColumn fx:id="wednesday" minWidth="11.0" prefWidth="90.0" text="Wednesday" />
+            <TableColumn fx:id="thursday" minWidth="11.0" prefWidth="93.0" text="Thursday" />
+            <TableColumn fx:id="friday" minWidth="11.0" prefWidth="98.0" text="Friday" />
+            <TableColumn fx:id="saturday" minWidth="11.0" prefWidth="103.0" text="Saturday" />
+            <TableColumn fx:id="monday1" minWidth="11.0" prefWidth="91.0" text="Monday" />
+        </columns>
+      </TableView>
+      <ListView fx:id="updates" layoutX="304.0" layoutY="442.0" prefHeight="146.0" prefWidth="289.0" />
+      <Label layoutX="144.0" layoutY="478.0" prefHeight="75.0" prefWidth="156.0" style="-fx-text-fill: pink;" text="Updates : ">
+         <font>
+            <Font name="AngsanaUPC" size="49.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <Glow level="0.86" />
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <CheckBox fx:id="notifiications" layoutX="491.0" layoutY="14.0" mnemonicParsing="false" onAction="#notificationsEventHandler" prefHeight="25.0" prefWidth="102.0" selected="true" style="-fx-text-fill: maroon;" text="Notifications">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Microsoft JhengHei Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="11.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

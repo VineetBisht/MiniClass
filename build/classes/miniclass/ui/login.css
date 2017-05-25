@@ -1,0 +1,21 @@
+.root { 
+  -fx-base: #606060;
+  -fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);
+  -fx-background-position: left top;
+}
+
+.button {
+
+  -fx-font-size: 20pt;
+ 
+}
+ 
+
+
+#clipLabel {
+  -fx-font-size: 24pt;
+}
+
+.hyperlink {
+  -fx-text-fill: #808080;
+} .label{-fx-text-fill:#E5E5E5;}

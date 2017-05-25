@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="683.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/media.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.discuss.SearchyController">
+   <left>
+      <VBox prefHeight="514.0" prefWidth="210.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="27.0" prefWidth="198.0" />
+            <Label prefHeight="26.0" prefWidth="111.0" style="-fx-text-fill: White;" text="Category :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <ChoiceBox fx:id="subject" onMouseClicked="#subjectEventHandler" prefHeight="25.0" prefWidth="195.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </ChoiceBox>
+            <Label prefHeight="32.0" prefWidth="172.0" />
+            <Label prefHeight="33.0" prefWidth="176.0" text="Search by Label :">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="look" onAction="#resultEventHandler" onKeyPressed="#lookEventHandler" promptText="Topics..">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </left>
+   <top>
+      <AnchorPane prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="243.0" layoutY="7.0" prefHeight="37.0" prefWidth="152.0" style="-fx-text-fill: yellow;" text="Search">
+               <font>
+                  <Font name="AR JULIAN" size="32.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                     <bumpInput>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.71" />
+                           </input>
+                        </InnerShadow>
+                     </bumpInput>
+                  </Lighting>
+               </effect>
+            </Label>
+            <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="12.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/back.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <padding>
+      <Insets bottom="10.0" right="10.0" />
+   </padding>
+   <center>
+      <ListView fx:id="result" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.qui.QuizCController">
+   <children>
+      <FlowPane layoutX="104.0" layoutY="-30.0" prefHeight="166.0" prefWidth="375.0" scaleX="0.6" scaleY="0.6">
+         <children>
+            <Label alignment="CENTER" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: Orange;" text="Quiz" textFill="#8f8536">
+               <font>
+                  <Font name="AR JULIAN" size="49.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow>
+                           <input>
+                              <InnerShadow>
+                                 <input>
+                                    <Glow level="0.58" />
+                                 </input>
+                              </InnerShadow>
+                           </input>
+                        </Shadow>
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+            <ImageView fitHeight="145.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/Quiz-Games.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <Label fx:id="question" layoutX="8.0" layoutY="88.0" prefHeight="123.0" prefWidth="568.0" text="Question" textFill="#d79f9f" wrapText="true">
+         <font>
+            <Font name="System Italic" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="option1" layoutX="77.0" layoutY="219.0" mnemonicParsing="false" onAction="#option1EventHandler" prefHeight="57.0" prefWidth="429.0" text="Button" />
+      <Button fx:id="option2" layoutX="77.0" layoutY="293.0" mnemonicParsing="false" onAction="#option2EventHandler" prefHeight="57.0" prefWidth="429.0" text="Button" />
+      <Button fx:id="option3" layoutX="78.0" layoutY="366.0" mnemonicParsing="false" onAction="#option3EventHandler" prefHeight="57.0" prefWidth="429.0" text="Button" />
+      <Button fx:id="option4" layoutX="77.0" layoutY="441.0" mnemonicParsing="false" onAction="#option4EventHandler" prefHeight="57.0" prefWidth="429.0" text="Button" />
+      <CheckBox fx:id="oppo" layoutX="473.0" layoutY="19.0" mnemonicParsing="false" onAction="#oppoEventHandler" prefHeight="34.0" prefWidth="112.0" style="-fx-text-fill: maroon;" text="Opponent" visible="false">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="Microsoft JhengHei Bold" size="15.0" />
+         </font>
+      </CheckBox>
+      <ProgressBar fx:id="timer" layoutX="9.0" layoutY="521.0" prefHeight="18.0" prefWidth="583.0" progress="0.0" visible="false" />
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

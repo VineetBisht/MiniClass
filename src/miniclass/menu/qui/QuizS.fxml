@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="513.0" prefWidth="569.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.qui.QuizSController">
+   <children>
+      <FlowPane layoutX="100.0" layoutY="26.0" prefHeight="166.0" prefWidth="375.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: Orange;" text="Quiz" textFill="#8f8536">
+               <font>
+                  <Font name="AR JULIAN" size="49.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow>
+                           <input>
+                              <InnerShadow>
+                                 <input>
+                                    <Glow level="0.58" />
+                                 </input>
+                              </InnerShadow>
+                           </input>
+                        </Shadow>
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+            <ImageView fitHeight="145.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/Quiz-Games.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <Button fx:id="solo" layoutX="121.0" layoutY="233.0" mnemonicParsing="false" onAction="#soloEventHandler" prefHeight="57.0" prefWidth="332.0" style="-fx-text-fill: lightgreen; -fx-font: &quot;ar julian&quot;;" stylesheets="@../../ui/DarkTheme.css" text="Play Solo">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <InnerShadow>
+               <input>
+                  <DropShadow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input></DropShadow>
+               </input>
+            </InnerShadow>
+         </effect></Button>
+      <Button fx:id="leader" layoutX="121.0" layoutY="402.0" mnemonicParsing="false" onAction="#leaderEventHandler" prefHeight="57.0" prefWidth="332.0" style="-fx-font-family: &quot;ar julian&quot;;" text="Leaderboards">
+         <effect>
+            <DropShadow>
+               <input>
+                  <InnerShadow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input></InnerShadow>
+               </input>
+            </DropShadow>
+         </effect></Button>
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="513.0" prefWidth="569.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css">
+         <children>
+            <FlowPane layoutX="100.0" layoutY="26.0" prefHeight="166.0" prefWidth="375.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: Orange;" text="Quiz" textFill="#8f8536">
+                     <font>
+                        <Font name="AR JULIAN" size="49.0" />
+                     </font>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow>
+                                 <input>
+                                    <InnerShadow>
+                                       <input>
+                                          <Glow level="0.58" />
+                                       </input>
+                                    </InnerShadow>
+                                 </input>
+                              </Shadow>
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="145.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Quiz-Games.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </FlowPane>
+            <Button fx:id="solo1" layoutX="121.0" layoutY="257.0" mnemonicParsing="false" onAction="#soloEventHandler" prefHeight="57.0" prefWidth="332.0" style="-fx-text-fill: lightgreen; -fx-font: &quot;ar julian&quot;;" stylesheets="@../../ui/DarkTheme.css" text="Play ">
+               <font>
+                  <Font size="26.0" />
+               </font>
+               <effect>
+                  <InnerShadow>
+                     <input>
+                        <DropShadow>
+                           <input>
+                              <Lighting>
+                                 <bumpInput>
+                                    <Shadow />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </input>
+                        </DropShadow>
+                     </input>
+                  </InnerShadow>
+               </effect>
+            </Button>
+            <Button fx:id="leader1" layoutX="121.0" layoutY="380.0" mnemonicParsing="false" onAction="#leaderEventHandler" prefHeight="57.0" prefWidth="332.0" style="-fx-font-family: &quot;ar julian&quot;;" text="Leaderboards">
+               <effect>
+                  <DropShadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Lighting>
+                                 <bumpInput>
+                                    <Shadow />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <ImageView fx:id="back1" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/back.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="multi" layoutX="123.0" layoutY="327.0" mnemonicParsing="false" onAction="#multiEventHandler" prefHeight="57.0" prefWidth="349.0" style="-fx-text-fill: yellow; -fx-font-family: &quot;ar julian&quot;;" text="Look For Opponents" visible="false">
+         <font>
+            <Font name="AR JULIAN" size="49.0" />
+         </font>
+         <effect>
+            <InnerShadow>
+               <input>
+                  <DropShadow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow>
+                                 <input>
+                                    <Lighting>
+                                       <bumpInput>
+                                          <Shadow />
+                                       </bumpInput>
+                                       <light>
+                                          <Light.Distant />
+                                       </light>
+                                    </Lighting>
+                                 </input>
+                              </Shadow>
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </DropShadow>
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

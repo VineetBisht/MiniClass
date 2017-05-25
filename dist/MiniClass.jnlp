@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MiniClass.jnlp">
+  <information>
+    <title>MiniClass</title>
+    <vendor>Vineet</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MiniClass.jar" size="8900255" download="eager" />
+    <jar href="lib/j2ee.jar" size="809594" download="eager" />
+    <jar href="lib/mysql-connector-java-6.0.6.jar" size="2001778" download="eager" />
+    <jar href="lib/ojdbc6.jar" size="2739670" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MiniClass" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="miniClass.ui.MiniClass"  name="MiniClass" />
+  <update check="always"/>
+</jnlp>

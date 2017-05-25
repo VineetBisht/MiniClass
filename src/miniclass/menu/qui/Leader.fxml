@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="529.0" prefWidth="600.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.qui.LeaderController">
+   <children>
+      <ListView fx:id="leaders" layoutX="269.0" layoutY="129.0" prefHeight="373.0" prefWidth="310.0" />
+      <FlowPane layoutX="96.0" layoutY="-27.0" prefHeight="166.0" prefWidth="375.0" scaleX="0.4" scaleY="0.4">
+         <children>
+            <Label alignment="CENTER" prefHeight="61.0" prefWidth="192.0" style="-fx-text-fill: Orange;" text="Quiz" textFill="#8f8536">
+               <font>
+                  <Font name="AR JULIAN" size="49.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow>
+                           <input>
+                              <InnerShadow>
+                                 <input>
+                                    <Glow level="0.58" />
+                                 </input>
+                              </InnerShadow>
+                           </input>
+                        </Shadow>
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+            <ImageView fitHeight="145.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/Quiz-Games.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <PieChart fx:id="pie" layoutX="345.0" layoutY="225.0" prefHeight="277.0" prefWidth="284.0" />
+      <Label alignment="CENTER" layoutX="45.0" layoutY="265.0" prefHeight="75.0" prefWidth="206.0" style="-fx-text-fill: Brown;" text="This Month :" textFill="#8f8536">
+         <font>
+            <Font name="AR JULIAN" size="26.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="376.0" layoutY="129.0" prefHeight="100.0" prefWidth="232.0" style="-fx-text-fill: Orange;" text="Your Progress " textFill="#8f8536" visible="false" wrapText="true">
+         <font>
+            <Font name="AR JULIAN" size="27.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <InnerShadow>
+                           <input>
+                              <Glow level="0.58" />
+                           </input>
+                        </InnerShadow>
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

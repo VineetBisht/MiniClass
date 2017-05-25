@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="737.0" style="-fx-background-color: radial-gradient(center 50% 25%, radius 60%, #666a6b,#2b2f32);" stylesheets="@../ui/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniclass.menu.MenuController">
+   <children>
+      <Button fx:id="discussions" contentDisplay="TOP" defaultButton="true" layoutX="35.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#discussionsEventHandler" onMousePressed="#mousePressedHandler" prefHeight="190.0" prefWidth="210.0" text="Discussions">
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/class%201.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <FlowPane fx:id="logout" alignment="TOP_RIGHT" layoutX="601.0" layoutY="2.0" minWidth="-Infinity" onMouseClicked="#logoutEventHandler" prefHeight="46.0" prefWidth="126.0">
+         <children>
+            <ImageView fitHeight="39.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/logout1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/logout.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FlowPane>
+      <Button fx:id="material" contentDisplay="TOP" layoutX="276.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#materialEventHandler" onMousePressed="#mousePressedHandler" prefHeight="190.0" prefWidth="210.0" text="Material">
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/books.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="live" contentDisplay="TOP" layoutX="179.0" layoutY="280.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#liveEventHandler" onMousePressed="#mousePressedHandler" prefHeight="180.0" prefWidth="160.0" text="Live">
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/live.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="schedule" contentDisplay="TOP" layoutX="437.0" layoutY="280.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#scheduleEventHandler" onMousePressed="#mousePressedHandler" prefHeight="180.0" prefWidth="160.0" text="Schedule">
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/schedule.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="quiz" contentDisplay="TOP" layoutX="517.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#quizEventHandler" onMousePressed="#mousePressedHandler" prefHeight="190.0" prefWidth="210.0" text="Quiz" textFill="#ebe4e4">
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/question.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="contact" contentDisplay="TOP" layoutX="8.0" layoutY="428.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#contactEventHandler" onMousePressed="#mousePressedHandler" prefHeight="65.0" prefWidth="117.0" style="-fx-font-size: 11;" text="Contact Us">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/28_Contact-Us.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="324.0" prefHeight="50.0" prefWidth="160.0" style="-fx-text-fill: cyan;" text="Mini Class" textFill="#0cc9bade">
+         <font>
+            <Font name="Segoe UI Semilight" size="34.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Lighting>
+                                 <bumpInput>
+                                    <Shadow />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </DropShadow>
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="47.0" layoutX="276.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/log.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="8.0" layoutY="-5.0" prefHeight="39.0" prefWidth="79.0" style="-fx-text-fill: lightyellow;" text="Welcome :" textFill="#0cc9bade">
+         <font>
+            <Font name="Segoe UI Semilight" size="17.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Lighting>
+                                 <bumpInput>
+                                    <Shadow />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </DropShadow>
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <Label fx:id="welcome" alignment="TOP_LEFT" layoutX="91.0" layoutY="3.0" prefHeight="37.0" prefWidth="179.0" style="-fx-text-fill: lightyellow;" textFill="#0cc9bade">
+         <font>
+            <Font name="Segoe UI Semilight" size="17.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Lighting>
+                                 <bumpInput>
+                                    <Shadow />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </DropShadow>
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
