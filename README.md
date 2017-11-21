@@ -1,5 +1,5 @@
 # MiniClass - Description:
-MiniClass is a project designed to provide a simple, fun and interactive class environment for students as well as teachers.
+MiniClass is a desktop application designed to provide a simple, fun and interactive class environment for students as well as teachers.
 
 # Following functionalities are included:
     - Discussion Forums
@@ -7,5 +7,4 @@ MiniClass is a project designed to provide a simple, fun and interactive class e
     - Assignment Submissions/Updates
     - Material Downloads
     - Live/Downloads Video Lectures
-    - Schedules
-   
+    - Lecture Schedules
