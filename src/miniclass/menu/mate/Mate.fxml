@@ -31,7 +31,7 @@
          </effect>
       </Label>
       <Button fx:id="assign" disable="true" layoutX="283.0" layoutY="230.0" mnemonicParsing="false" onAction="#assignEventHandler" prefHeight="68.0" prefWidth="292.0" text="Submit Assignments" />
-      <Button fx:id="notes" layoutX="289.0" layoutY="322.0" mnemonicParsing="false" onAction="#notesEventHandler" prefHeight="68.0" prefWidth="280.0" text="Download Notes" />
+      <Button fx:id="notes" disable="true" layoutX="289.0" layoutY="322.0" mnemonicParsing="false" onAction="#notesEventHandler" prefHeight="68.0" prefWidth="280.0" text="Download Notes" />
       <ChoiceBox fx:id="subject" layoutX="33.0" layoutY="152.0" prefHeight="45.0" prefWidth="230.0" />
       <ImageView fx:id="back" fitHeight="31.0" fitWidth="44.0" layoutX="18.0" layoutY="14.0" onMouseClicked="#backEventHandler" pickOnBounds="true" preserveRatio="true">
          <image>

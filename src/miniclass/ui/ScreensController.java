@@ -63,22 +63,30 @@ public class ScreensController  extends StackPane {
     tempr.put(name,resource);
     tempw.put(name,w);
     temph.put(name,h);
+    System.out.println("Loaded screen :"+name);
     }   
     
     //Loads the fxml file, add the screen to the screens collection and
     //finally injects the screenPane to the controller.
     public boolean loadScreen1(String name, String resource,Double w,Double h) {
         try {
+            System.out.println("1");
             FXMLLoader myLoader = new FXMLLoader(getClass().getResource(resource));
+            System.out.println("2");
             Parent loadScreen = (Parent) myLoader.load();
+            System.out.println("3");
             ControlledScreen myScreenControler = ((ControlledScreen) myLoader.getController());
+            System.out.println("4");
             myScreenControler.setScreenParent(this);
+            System.out.println("5");
             addScreen(name,loadScreen,w,h);
+            System.out.println("6");
             return true;
         } catch (Exception e) {
-           e.printStackTrace();
+           System.out.println("LoadScreen1: "+ e);
             return false;
         }
+        
     }
 
     //This method tries to displayed the screen with a predefined name.
@@ -86,7 +94,7 @@ public class ScreensController  extends StackPane {
     //one screen the new screen is been added second, and then the current screen is removed.
     // If there isn't any screen being displayed, the new screen is just added to the root.
     public boolean setScreen(final String name) {   
-        
+        System.out.println("starting setScreen ");
         loadScreen1(name,tempr.get(name),tempw.get(name),temph.get(name));
         if (screens.get(name) != null) {   //screen loaded
             final DoubleProperty opacity = opacityProperty();
